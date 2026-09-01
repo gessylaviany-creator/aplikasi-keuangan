@@ -50,8 +50,8 @@ if st.session_state.logged_in_user is None:
                 otp = str(random.randint(100000, 999999))
                 
                 # Konfigurasi Gmail Pengirim
-                sender_email = "gessylaviany@gmail.com"  # Ganti dengan Gmail kamu
-                sender_password = "kxkr kjwp ebkv plgg" # 16 digit App Password Google
+                sender_email = "eciiilalala12@gmail.com"  # Ganti dengan Gmail kamu
+                sender_password = "ofrx sjdw dufl sqhl" # 16 digit App Password Google
                 
                 # Format Pesan Email
                 msg = MIMEText(f"Kode OTP verifikasi akun Anda adalah: {otp}")
