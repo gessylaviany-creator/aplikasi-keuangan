@@ -51,7 +51,7 @@ if st.session_state.logged_in_user is None:
                 
                 # Konfigurasi Gmail Pengirim
                 sender_email = gessylaviany@gmail.com  # Ganti dengan Gmail kamu
-                sender_password = kxkr kjwp ebkv plgg # 16 digit App Password Google
+                sender_password = "kxkr kjwp ebkv plgg" # 16 digit App Password Google
                 
                 # Format Pesan Email
                 msg = MIMEText(f"Kode OTP verifikasi akun Anda adalah: {otp}")
