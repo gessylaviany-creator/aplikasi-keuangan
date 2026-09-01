@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import datetime
 import random
+import smtplib
+from email.mime.text import MIMEText
 
 # 1. KONFIGURASI APLIKASI
 st.set_page_config(page_title="Aplikasi Keuangan Gessyla & Lutfi", layout="wide", page_icon="💰")
